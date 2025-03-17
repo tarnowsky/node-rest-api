@@ -14,7 +14,7 @@ const res = document.querySelector('.results');
 const reset = document.querySelector('.reset');
 
 
-let [win, lose, tie] = JSON.parse(localStorage.getItem('res'))
+let [win, lose, tie] = JSON.parse(localStorage.getItem('res')) || [0, 0, 0]
 updateScore();
 
 function updateScore() {
