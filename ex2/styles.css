@@ -1,0 +1,94 @@
+h3,p, h2 {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    margin: 10px 0;
+}
+
+h2 {
+    color: rgb(205, 5, 5);
+}
+
+main {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.wrapper {
+    margin-bottom: 2em;
+    width: 18rem;
+    border: 1px solid;
+    padding: 20px 25px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.items-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fst {
+    width: 20%;
+}
+
+.hr-wrapper {
+    display: flex;
+    justify-content: end;
+    margin: 15px 0;
+}
+
+.hrr {
+    width: 25%;
+    height: 1px;
+    background-color: rgb(182, 182, 182);
+}
+
+.hrrr {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(182, 182, 182);
+}
+
+.item-price-total {
+    color: rgb(205, 5, 5);
+    align-self: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.wrapper-extra {
+    width: 10rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 30px 30px 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.temp-title {
+    display: flex;
+    justify-content: start;
+}
+
+.temp-val-wrapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
