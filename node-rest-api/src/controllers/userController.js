@@ -37,7 +37,7 @@ exports.getUserById = async (req, res) => {
             });
         }
 
-        res.status(200).json(200);
+        res.status(200).json(user);
     } catch (error) {
         res.status(500).json({
             message: 'Error while getting user by id.',
@@ -65,7 +65,7 @@ exports.updateUser = async (req, res) => {
 
         res.status(200).json({
             message: 'User updated successfully',
-            user: updateUser,
+            user: updatedUser,
         });
     } catch (error) {
         res.status(400).json({
